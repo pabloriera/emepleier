@@ -1,2 +1,2 @@
-# osc2mplayer
+# EMEPLEIER
 Send OSC messages to MPlayer
