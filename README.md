@@ -3,7 +3,7 @@ Send OSC messages to MPlayer
 
 In SuperDirt
 
-```
+``` supercollider
 ~oscaddr = NetAddr.new("127.0.0.1", 5005);    // create the NetAddr
 (
 ~video = "";
@@ -31,7 +31,7 @@ In SuperDirt
 
 In tidal
 
-```
+``` haskell
 let (pos, pos_p) = pF "pos" (Just 0.0)
     (depth, depth_p) = pF "depth" (Just 0.0)
     (video, video_p) = pS "video" (Just "0001.mp4")
