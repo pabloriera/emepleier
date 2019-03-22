@@ -20,7 +20,7 @@ In SuperDirt
 		}
 	};
 
-	if(event['depth']!=nil)
+	if(event['depth']!=nil && event['pos']!=nil && event['n']!=nil)
 	{
 		SystemClock.sched(event.latency,{
 			~oscaddr.sendMsg("/seek",(event.n+1)*event.depth + event.pos);
